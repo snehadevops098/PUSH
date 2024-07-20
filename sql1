@@ -1,0 +1,1 @@
+ SQL is also used to define the structure of your database tables, columns, indexes, constraints, and relationships. This is usually done in script files (.sql files) that are executed to create or modify database schemas.
