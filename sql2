@@ -1,0 +1,15 @@
+FEATURES OF SQL :
+
+Data Querying: Retrieves data.
+Data Definition: Structures data.
+Data Manipulation: Modifies data.
+Transactions: Ensures consistency.
+Data Integrity: Maintains accuracy.
+Joins: Combines data.
+Aggregation: Computes totals.
+Subqueries: Nested queries.
+Views: Virtual tables.
+Procedures: Predefined tasks.
+Indexing: Optimizes access.
+Security: Controls access.
+Concurrency: Manages access.
