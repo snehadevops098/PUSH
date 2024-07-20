@@ -1,0 +1,33 @@
+SELECT: Retrieves data from a database.
+SELECT column1, column2 FROM table_name WHERE condition;
+
+INSERT INTO: Inserts new data into a database.
+INSERT INTO table_name (column1, column2) VALUES (value1, value2);
+
+UPDATE: Modifies existing data in a database.
+UPDATE table_name SET column1 = value1 WHERE condition;
+
+DELETE: Deletes data from a database.
+DELETE FROM table_name WHERE condition;
+
+CREATE TABLE table_name (
+    column1 datatype,
+    column2 datatype,
+    ...
+);
+
+DROP TABLE: Deletes an existing table and its data.
+DROP TABLE table_name;
+
+CREATE INDEX: Creates an index on a table, which improves the speed of data retrieval operations.
+CREATE INDEX index_name ON table_name (column_name);
+
+
+DROP INDEX: Deletes an index from a table.
+DROP INDEX index_name;
+
+GRANT: Gives specific privileges to database users.
+GRANT privilege_name ON object_name TO {user_name | PUBLIC | role_name} [WITH GRANT OPTION];
+
+REVOKE: Removes privileges from database users.
+REVOKE privilege_name ON object_name FROM {user_name | PUBLIC | role_name};
